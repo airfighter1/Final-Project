@@ -59,16 +59,28 @@
 
 .center{
     display: flex;
+   
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
 }
 
 .leftmenubar{
     display: flex;
     flex-direction: column;
     width: 3vw;
-    height: 100vh;
-    padding-top: 21px;
+    height: 79vh;
+    padding-top: 42px;
     padding-left: 17px;
     gap: 20px;
+}
+.leftmenubottom{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding-bottom: 15px;
+    padding-left: 17px;
 }
 
 .menuicon{
