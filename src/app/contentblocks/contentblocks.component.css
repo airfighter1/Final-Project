@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+
+.dashboardheading{
+    font-size: 28px;
+    padding-left: 35px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.dashboard{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.dashboardcover1{
+    padding-left: 35px;
+}
+
+.dashboardwrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 19px 20px;
+    width: 15vw;
+    height: 22vh;
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.006),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.01),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.015),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.019),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.025),
+  100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+.dashboardicon{
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.iconwrapper{
+    background-color: #9ec3f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
+
+
+.dashboardcover4{
+    padding-right: 35px;
+}
+
+.dashboaradbottom{
+    border-top: 1px solid rgb(228, 223, 223);
+    color: #8c8d8f;
+}
+
+ .dashboardwrapper:hover{
+    background-color: #438efd;
+    color: white;
+    
+} 
+

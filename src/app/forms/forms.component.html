@@ -1,0 +1,17 @@
+<p>forms works!</p>
+
+<form (submit)="onSubmit($event)">
+    <label for="data1">1st</label>
+    <input  id="data1" name="data1" type="text" [(ngModel)]="data1"><br><br>
+
+
+    <label for="data2">2st</label>
+    <input  id="data2" name="data2" type="text" [(ngModel)]="data2"><br><br>
+
+
+    <label for="data3">3st</label>
+    <input  id="data3" name="data3" type="text" [(ngModel)]="data3"><br><br>
+
+
+    <button type="submit">Submit</button>
+</form>

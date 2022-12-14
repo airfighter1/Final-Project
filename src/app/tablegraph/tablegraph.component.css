@@ -1,0 +1,34 @@
+.tablesctn{
+    padding-left: 40px;
+    
+    width: 60%;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #ffffff;
+    width: 55vw;
+    border: 15px solid #ffffff;
+    /* padding-left: 10px; */
+    height: 50vh;
+
+}
+  
+/* th, td {
+    text-align: left;
+    padding: 8px;
+
+    
+} */
+th, td {
+    /* padding: 8px; */
+    text-align: left;
+    border-bottom: 8px solid #ffffff;
+  }
+  
+/* tr:nth-child(even) {
+    background-color: #f5f7f9
+} */
+td{
+    background-color: #f5f7f9 ;
+}
